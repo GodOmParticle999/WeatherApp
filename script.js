@@ -60,8 +60,8 @@ async function getWeatherDetails(cityValue){
             `Max Temp: ${max_Temp}`,
             `Humidity: ${data.main.humidity}%`,
             `Wind Speed: ${data.wind.speed} m/s`,
-            `Sunrise at: ${sunset}`,
-            `Sunset at: ${sunrise}`,
+            `Sunrise at: ${sunrise}`,
+            `Sunset at: ${sunset}`,
         ];
         h1.textContent=`Weather in ${cityValue}`;
         weatherDetailsEl.querySelector(".icon").innerHTML=`<img src="http://openweathermap.org/img/wn/${icon}.png" alt="Weather-icon">`;
