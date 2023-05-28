@@ -1,2 +1,2 @@
 # WeatherApp
-This repo is related to Weather Forecast
+This repo is related to Current Weather
